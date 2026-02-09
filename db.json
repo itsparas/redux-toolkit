@@ -1,0 +1,20 @@
+{
+  "todos": [
+    { "id": 1, "title": "Learn Redux Toolkit basics", "completed": true },
+    { "id": 2, "title": "Understand createSlice", "completed": false },
+    { "id": 3, "title": "Practice createAsyncThunk", "completed": false },
+    { "id": 4, "title": "Explore RTK Query", "completed": false },
+    { "id": 5, "title": "Build a real project", "completed": false }
+  ],
+  "posts": [
+    { "id": 1, "title": "Getting Started with Redux Toolkit", "body": "Redux Toolkit is the official, opinionated, batteries-included toolset for efficient Redux development.", "userId": 1 },
+    { "id": 2, "title": "Understanding Slices", "body": "A slice is a collection of Redux reducer logic and actions for a single feature of your app.", "userId": 1 },
+    { "id": 3, "title": "Async Operations in Redux", "body": "createAsyncThunk handles async logic and dispatches pending/fulfilled/rejected actions automatically.", "userId": 2 },
+    { "id": 4, "title": "RTK Query Fundamentals", "body": "RTK Query is a powerful data fetching and caching tool built on top of Redux Toolkit.", "userId": 2 }
+  ],
+  "users": [
+    { "id": 1, "name": "Alice Johnson", "email": "alice@example.com", "role": "admin" },
+    { "id": 2, "name": "Bob Smith", "email": "bob@example.com", "role": "user" },
+    { "id": 3, "name": "Charlie Brown", "email": "charlie@example.com", "role": "user" }
+  ]
+}
